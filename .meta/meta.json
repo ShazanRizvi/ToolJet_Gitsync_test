@@ -9,10 +9,10 @@
   },
   "a0a085f6-a5c8-4bd1-b907-5aca216a02ed": {
     "gitAppName": "chart",
-    "lastCommitMessage": " v1 Version of app chart promoted from development to staging",
-    "gitVersionId": "a57f3b43-6f39-4752-a436-2afb99c3d600",
-    "lastpushDate": "2024-03-14T18:30:00.765Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": " v2 Version of app chart promoted from development to staging",
+    "gitVersionId": "abbe4207-19ce-479f-8271-e755795e0741",
+    "lastpushDate": "2024-03-21T15:41:52.267Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "syed "
   }
 }
