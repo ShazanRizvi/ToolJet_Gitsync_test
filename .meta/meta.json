@@ -14,5 +14,13 @@
     "lastpushDate": "2024-03-21T15:41:52.267Z",
     "gitVersionName": "v2",
     "lastCommitUser": "syed "
+  },
+  "a0a03395-4f5d-40dc-80ec-13fb8033b108": {
+    "gitAppName": "test",
+    "lastCommitMessage": " v1 Version of app test promoted from development to staging",
+    "gitVersionId": "31547708-259e-461d-9089-1766aff13077",
+    "lastpushDate": "2024-05-02T17:07:05.946Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "syed "
   }
 }
