@@ -1,0 +1,508 @@
+{
+  "tooljet_database": [
+    {
+      "id": "a6c4eb31-6748-4991-9479-9e23d6d13c6a",
+      "table_name": "users",
+      "schema": {
+        "columns": [
+          {
+            "column_name": "id",
+            "data_type": "integer",
+            "column_default": "nextval(\"a6c4eb31-6748-4991-9479-9e23d6d13c6a_id_seq\"",
+            "character_maximum_length": null,
+            "numeric_precision": 32,
+            "constraints_type": {
+              "is_not_null": true,
+              "is_primary_key": true,
+              "is_unique": false
+            },
+            "keytype": "PRIMARY KEY"
+          },
+          {
+            "column_name": "Name",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": ""
+          },
+          {
+            "column_name": "email",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": ""
+          },
+          {
+            "column_name": "Phone",
+            "data_type": "character varying",
+            "column_default": null,
+            "character_maximum_length": null,
+            "numeric_precision": null,
+            "constraints_type": {
+              "is_not_null": false,
+              "is_primary_key": false,
+              "is_unique": false
+            },
+            "keytype": ""
+          }
+        ],
+        "foreign_keys": []
+      }
+    }
+  ],
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "id": "b7e2972e-281f-4990-b19b-4241719a9368",
+          "type": "front-end",
+          "name": "ToolJetDB_test",
+          "slug": "b7e2972e-281f-4990-b19b-4241719a9368",
+          "isPublic": null,
+          "isMaintenanceOn": false,
+          "icon": "draghandle",
+          "organizationId": "24b9db06-8f3f-4fdb-9814-2ae8404eeb59",
+          "currentVersionId": null,
+          "userId": "fa271bf0-0d98-4371-a194-852b29481ca2",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2024-07-04T17:53:24.590Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2024-07-04T17:53:24.588Z",
+          "editingVersion": {
+            "id": "7854a39f-165a-4dae-b575-96e59163046e",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": false,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "showViewerNavigation": true,
+            "homePageId": "73411b78-4177-4936-8476-ce3dc705d869",
+            "appId": "b7e2972e-281f-4990-b19b-4241719a9368",
+            "currentEnvironmentId": "00a4d9be-2699-4432-9fd0-a7294dccfcdf",
+            "promotedFrom": null,
+            "createdAt": "2024-07-04T17:53:24.667Z",
+            "updatedAt": "2024-07-05T14:49:23.033Z"
+          },
+          "components": [
+            {
+              "id": "ec078de3-ae03-4720-a1b4-f1cd132f9c4c",
+              "name": "table1",
+              "type": "Table",
+              "pageId": "73411b78-4177-4936-8476-ce3dc705d869",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-07-04T17:53:30.955Z",
+              "updatedAt": "2024-07-04T17:53:30.955Z",
+              "layouts": [
+                {
+                  "id": "39d440af-6bcd-451e-945b-cac2b4e4057d",
+                  "type": "desktop",
+                  "top": 70,
+                  "left": 4,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "ec078de3-ae03-4720-a1b4-f1cd132f9c4c",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-04T17:53:30.955Z"
+                },
+                {
+                  "id": "6b5e2752-16f9-461d-ab7a-c3f0db7c77fe",
+                  "type": "mobile",
+                  "top": 70,
+                  "left": 4,
+                  "width": 35,
+                  "height": 456,
+                  "componentId": "ec078de3-ae03-4720-a1b4-f1cd132f9c4c",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-04T17:53:30.955Z"
+                }
+              ]
+            },
+            {
+              "id": "623ca077-d634-406b-a7a5-53d05e653a68",
+              "name": "textinput1",
+              "type": "TextInput",
+              "pageId": "73411b78-4177-4936-8476-ce3dc705d869",
+              "parent": null,
+              "properties": {
+                "placeholder": {
+                  "value": ""
+                },
+                "value": {
+                  "value": "{{constants.Test}}"
+                }
+              },
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-07-05T14:46:59.358Z",
+              "updatedAt": "2024-07-05T14:47:19.428Z",
+              "layouts": [
+                {
+                  "id": "b4dd0f07-6815-44cf-81fc-4015cf759eee",
+                  "type": "desktop",
+                  "top": 560,
+                  "left": 28,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "623ca077-d634-406b-a7a5-53d05e653a68",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-05T14:46:59.358Z"
+                },
+                {
+                  "id": "2aa72152-9557-40bf-9f37-d93294577fc0",
+                  "type": "mobile",
+                  "top": 560,
+                  "left": 28,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "623ca077-d634-406b-a7a5-53d05e653a68",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-05T14:46:59.358Z"
+                }
+              ]
+            },
+            {
+              "id": "33036a17-f63b-429d-8422-93cfb3f2c018",
+              "name": "text1",
+              "type": "Text",
+              "pageId": "73411b78-4177-4936-8476-ce3dc705d869",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "{{constants.Test}}"
+                }
+              },
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-07-05T14:49:17.775Z",
+              "updatedAt": "2024-07-05T14:49:23.015Z",
+              "layouts": [
+                {
+                  "id": "9dff8caf-366c-49f0-8248-4d7f51bb332e",
+                  "type": "desktop",
+                  "top": 590,
+                  "left": 21,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "33036a17-f63b-429d-8422-93cfb3f2c018",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-05T14:49:17.775Z"
+                },
+                {
+                  "id": "108a43d4-c94c-4551-b4e3-1b5190052943",
+                  "type": "mobile",
+                  "top": 590,
+                  "left": 21,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "33036a17-f63b-429d-8422-93cfb3f2c018",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-05T14:49:17.775Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "73411b78-4177-4936-8476-ce3dc705d869",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "createdAt": "2024-07-04T17:53:24.588Z",
+              "updatedAt": "2024-07-04T17:53:24.588Z",
+              "autoComputeLayout": true,
+              "appVersionId": "7854a39f-165a-4dae-b575-96e59163046e"
+            }
+          ],
+          "events": [],
+          "dataQueries": [
+            {
+              "id": "18f5fc36-9ec1-4130-bf4c-aa0c5733fc1a",
+              "name": "tooljetdb1",
+              "options": {
+                "operation": "list_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "24b9db06-8f3f-4fdb-9814-2ae8404eeb59",
+                "table_id": "a6c4eb31-6748-4991-9479-9e23d6d13c6a",
+                "join_table": {
+                  "joins": [
+                    {
+                      "id": 1720115616410,
+                      "conditions": {
+                        "operator": "AND",
+                        "conditionsList": [
+                          {
+                            "operator": "=",
+                            "leftField": {
+                              "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                            }
+                          }
+                        ]
+                      },
+                      "joinType": "INNER"
+                    }
+                  ],
+                  "from": {
+                    "name": "a6c4eb31-6748-4991-9479-9e23d6d13c6a",
+                    "type": "Table"
+                  },
+                  "fields": [
+                    {
+                      "name": "id",
+                      "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                    },
+                    {
+                      "name": "Name",
+                      "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                    },
+                    {
+                      "name": "email",
+                      "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                    },
+                    {
+                      "name": "Phone",
+                      "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                    }
+                  ]
+                },
+                "list_rows": {}
+              },
+              "dataSourceId": "d8ad92fc-2784-46cf-919b-278958afe702",
+              "appVersionId": "7854a39f-165a-4dae-b575-96e59163046e",
+              "createdAt": "2024-07-04T17:53:34.311Z",
+              "updatedAt": "2024-07-04T17:58:02.776Z"
+            },
+            {
+              "id": "914ead55-c31d-4835-9f7c-f6987427e2db",
+              "name": "tooljetdb2",
+              "options": {
+                "operation": "create_row",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "24b9db06-8f3f-4fdb-9814-2ae8404eeb59",
+                "table_id": "a6c4eb31-6748-4991-9479-9e23d6d13c6a",
+                "join_table": {
+                  "joins": [
+                    {
+                      "id": 1720116049115,
+                      "conditions": {
+                        "operator": "AND",
+                        "conditionsList": [
+                          {
+                            "operator": "=",
+                            "leftField": {
+                              "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                            }
+                          }
+                        ]
+                      },
+                      "joinType": "INNER"
+                    }
+                  ],
+                  "from": {
+                    "name": "a6c4eb31-6748-4991-9479-9e23d6d13c6a",
+                    "type": "Table"
+                  },
+                  "fields": [
+                    {
+                      "name": "id",
+                      "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                    },
+                    {
+                      "name": "Name",
+                      "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                    },
+                    {
+                      "name": "email",
+                      "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                    },
+                    {
+                      "name": "Phone",
+                      "table": "a6c4eb31-6748-4991-9479-9e23d6d13c6a"
+                    }
+                  ]
+                },
+                "list_rows": {},
+                "create_row": {
+                  "0": {
+                    "column": "Name",
+                    "value": "'John Doe'"
+                  },
+                  "1": {
+                    "column": "email",
+                    "value": "'john@gmail.com'"
+                  },
+                  "1e185039-42b2-476f-bc49-eac9c8ca5ce0": {
+                    "column": "Phone",
+                    "value": "'3820280222'"
+                  }
+                }
+              },
+              "dataSourceId": "d8ad92fc-2784-46cf-919b-278958afe702",
+              "appVersionId": "7854a39f-165a-4dae-b575-96e59163046e",
+              "createdAt": "2024-07-04T18:00:43.303Z",
+              "updatedAt": "2024-07-04T19:06:10.882Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "d8ad92fc-2784-46cf-919b-278958afe702",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "7854a39f-165a-4dae-b575-96e59163046e",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-07-04T17:53:34.216Z",
+              "updatedAt": "2024-07-04T17:53:34.216Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "7854a39f-165a-4dae-b575-96e59163046e",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": false,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "showViewerNavigation": true,
+              "homePageId": "73411b78-4177-4936-8476-ce3dc705d869",
+              "appId": "b7e2972e-281f-4990-b19b-4241719a9368",
+              "currentEnvironmentId": "00a4d9be-2699-4432-9fd0-a7294dccfcdf",
+              "promotedFrom": null,
+              "createdAt": "2024-07-04T17:53:24.667Z",
+              "updatedAt": "2024-07-05T14:49:23.033Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "00a4d9be-2699-4432-9fd0-a7294dccfcdf",
+              "organizationId": "24b9db06-8f3f-4fdb-9814-2ae8404eeb59",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-06-04T18:48:47.709Z",
+              "updatedAt": "2024-06-04T18:48:47.709Z"
+            },
+            {
+              "id": "36984b1b-7f6c-413f-a5db-20df029a5869",
+              "organizationId": "24b9db06-8f3f-4fdb-9814-2ae8404eeb59",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-06-04T18:48:47.709Z",
+              "updatedAt": "2024-06-04T18:48:47.709Z"
+            },
+            {
+              "id": "182566f6-c29b-44e5-8fd7-f7f3a19de6d7",
+              "organizationId": "24b9db06-8f3f-4fdb-9814-2ae8404eeb59",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-06-04T18:48:47.710Z",
+              "updatedAt": "2024-06-04T18:48:47.710Z"
+            }
+          ],
+          "dataSourceOptions": [
+            {
+              "id": "e60769d3-0e20-4ced-92de-596a0f261dfa",
+              "dataSourceId": "d8ad92fc-2784-46cf-919b-278958afe702",
+              "environmentId": "00a4d9be-2699-4432-9fd0-a7294dccfcdf",
+              "options": null,
+              "createdAt": "2024-07-04T17:53:34.238Z",
+              "updatedAt": "2024-07-04T17:53:34.238Z"
+            },
+            {
+              "id": "bcf9ef8e-c803-49b6-b740-894296d93221",
+              "dataSourceId": "d8ad92fc-2784-46cf-919b-278958afe702",
+              "environmentId": "36984b1b-7f6c-413f-a5db-20df029a5869",
+              "options": null,
+              "createdAt": "2024-07-04T17:53:34.238Z",
+              "updatedAt": "2024-07-04T17:53:34.238Z"
+            },
+            {
+              "id": "2f7cec21-92a9-482c-9e85-9c6f09f7d472",
+              "dataSourceId": "d8ad92fc-2784-46cf-919b-278958afe702",
+              "environmentId": "182566f6-c29b-44e5-8fd7-f7f3a19de6d7",
+              "options": null,
+              "createdAt": "2024-07-04T17:53:34.238Z",
+              "updatedAt": "2024-07-04T17:53:34.238Z"
+            }
+          ],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "2.50.5.5"
+}
