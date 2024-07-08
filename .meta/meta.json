@@ -30,5 +30,13 @@
     "lastpushDate": "2024-07-05T15:00:05.778Z",
     "gitVersionName": "v1",
     "lastCommitUser": "Syed "
+  },
+  "28468293-67d6-495d-afe7-0b117945cb47": {
+    "gitAppName": "Gitsync_ENV_test",
+    "lastCommitMessage": "Version v2 Created of app Gitsync_ENV_test",
+    "gitVersionId": "68126446-a4e4-4b1e-82e1-3ac1d39ba234",
+    "lastpushDate": "2024-07-08T18:28:49.979Z",
+    "gitVersionName": "v2",
+    "lastCommitUser": "Syed "
   }
 }
