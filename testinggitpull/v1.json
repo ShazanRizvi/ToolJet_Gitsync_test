@@ -39,7 +39,7 @@
             "currentEnvironmentId": "113dec35-28c2-43e2-8aea-e8181c55acc5",
             "promotedFrom": null,
             "createdAt": "2024-07-22T14:21:14.541Z",
-            "updatedAt": "2024-07-22T14:21:33.200Z"
+            "updatedAt": "2024-07-22T14:30:06.368Z"
           },
           "components": [
             {
@@ -87,6 +87,52 @@
                   "updatedAt": "2024-07-22T14:21:33.192Z"
                 }
               ]
+            },
+            {
+              "id": "014401b2-6671-477c-880e-fbf2d7d13876",
+              "name": "textinput1",
+              "type": "TextInput",
+              "pageId": "a7a93d95-1055-4110-bfa9-0527ca121f87",
+              "parent": null,
+              "properties": {},
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-07-22T14:30:06.358Z",
+              "updatedAt": "2024-07-22T14:30:06.358Z",
+              "layouts": [
+                {
+                  "id": "071e9c91-f71a-4870-b1a3-07f09ae6b9ab",
+                  "type": "desktop",
+                  "top": 520,
+                  "left": 24,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "014401b2-6671-477c-880e-fbf2d7d13876",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-22T14:30:06.358Z"
+                },
+                {
+                  "id": "1edfe3ca-2c18-422d-a014-9fb4f422ae0d",
+                  "type": "mobile",
+                  "top": 520,
+                  "left": 24,
+                  "width": 10,
+                  "height": 40,
+                  "componentId": "014401b2-6671-477c-880e-fbf2d7d13876",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2024-07-22T14:30:06.358Z"
+                }
+              ]
             }
           ],
           "pages": [
@@ -127,7 +173,7 @@
               "currentEnvironmentId": "113dec35-28c2-43e2-8aea-e8181c55acc5",
               "promotedFrom": null,
               "createdAt": "2024-07-22T14:21:14.541Z",
-              "updatedAt": "2024-07-22T14:21:33.200Z"
+              "updatedAt": "2024-07-22T14:30:06.368Z"
             }
           ],
           "appEnvironments": [
